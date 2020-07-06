@@ -16,4 +16,52 @@
         </servlet-name>
         <url-pattern>/hello</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>HelloHttpServlet</servlet-name>
+        <servlet-class>com.zly.servlet.HelloHttpServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>HelloServletAutoCreated</servlet-name>
+        <servlet-class>com.zly.servlet.HelloServletAutoCreated</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ServletContext</servlet-name>
+        <servlet-class>com.zly.servlet.ServletContext</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletContext</servlet-name>
+        <url-pattern>/servletContext</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>HelloServletAutoCreated</servlet-name>
+        <url-pattern>/hello2</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>HelloHttpServlet</servlet-name>
+        <url-pattern>/helloHttp</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletRequest</servlet-name>
+        <servlet-class>
+            com.zly.servlet.ServletRequest
+        </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletRequest</servlet-name>
+        <url-pattern>/request</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GetParameter</servlet-name>
+        <servlet-class>
+            com.zly.servlet.GetParameter
+        </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetParameter</servlet-name>
+        <url-pattern>/getParameter</url-pattern>
+    </servlet-mapping>
+
 </web-app>
