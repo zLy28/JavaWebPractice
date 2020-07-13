@@ -64,4 +64,15 @@
         <url-pattern>/getParameter</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>HelloServletResponse</servlet-name>
+        <servlet-class>
+            com.zly.servlet.HelloServletResponse
+        </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HelloServletResponse</servlet-name>
+        <url-pattern>/helloServletResponse</url-pattern>
+    </servlet-mapping>
+
 </web-app>
